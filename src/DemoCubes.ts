@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => new DemoCubesWorld());
 
 export class DemoCubesWorld extends BasicView {
   /** オブジェクトの個数 */
-  public static OBJ_NUM: number = 3000;
+  public static OBJ_NUM: number = 1000;
   public rot: number = 0; // カメラの円運動用
   /** カメラの座標管理用オブジェクト */
   private cameraPositionTarget: THREE.Vector3;
